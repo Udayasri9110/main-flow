@@ -1,0 +1,76 @@
++*In[1]:*+
+[source, ipython3]
+----
+#mainflow task1
+----
+
+
++*In[3]:*+
+[source, ipython3]
+----
+#creating a list 
+fruits=['apple','banana','orange','cherry','jackfruit']
+#adding an element into the list
+fruits.append('pineapple')
+#removing an element from the list
+fruits.remove('banana')
+#modifying the list
+fruits[1]='dragon fruit'
+print("the updated list is: ",fruits)
+----
+
+
++*Out[3]:*+
+----
+the updated list is:  ['apple', 'dragon fruit', 'cherry', 'jackfruit', 'pineapple']
+----
+
+
++*In[5]:*+
+[source, ipython3]
+----
+#creating a dictionary
+country_capitals={"India":"Delhi","Japan":"Tokyo","Germany":"Berlin"}
+#adding a key value pair into the dictionary
+country_capitals["France"]="Paris"
+#removing an key value pair into the dictionary
+del country_capitals["Germany"]
+#modifying an key value pair into the dictionary
+country_capitals["India"]="New Delhi"
+print("updated dictionary is: ",country_capitals)
+----
+
+
++*Out[5]:*+
+----
+updated dictionary is:  {'India': 'New Delhi', 'Japan': 'Tokyo', 'France': 'Paris'}
+----
+
+
++*In[7]:*+
+[source, ipython3]
+----
+#creating a set
+set={'a','b','c','d','e'}
+#adding an element into the set
+set.add('f')
+#removing an element from the set
+set.remove('c')
+#modifying an element in the set
+set.discard('d')
+set.add('k')
+print("the updated set is: ",set)
+----
+
+
++*Out[7]:*+
+----
+the updated set is:  {'e', 'k', 'a', 'f', 'b'}
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
